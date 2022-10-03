@@ -1,0 +1,324 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    font-family: "Josefin Sans", Arial
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom right, #1ed1d4, #9c46ec, #dd06b9)
+}
+
+.card {
+    min-height: 600px;
+    min-width: 32rem;
+    margin: 2rem;
+    border-radius: 15px;
+    background: #02383c85
+}
+
+.card .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: #fff
+}
+
+.card .header .title {
+    font-weight: 300;
+    font-size: 55px;
+    text-align: center
+}
+
+::selection {
+    background: rgba(210, 255, 213, .3)
+}
+
+.photo {
+    width: 85px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 1rem 0
+}
+
+.main {
+    width: 85px
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem
+}
+
+.profile .person {
+    display: flex;
+    margin: 1rem 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.first .fa-crown {
+    color: gold;
+    filter: drop-shadow(0 0 5px gold)
+}
+
+.first .photo {
+    border: 5px solid gold;
+    box-shadow: 0 0 20px gold
+}
+
+.profile .person.first {
+    z-index: 10;
+    transform: translateY(-35%)
+}
+
+.second .fa-crown {
+    color: #e0decf;
+    filter: drop-shadow(0 0 5px rgb(224, 222, 207))
+}
+
+.second .photo {
+    border: 5px solid silver;
+    box-shadow: 0 0 20px silver
+}
+
+.profile .person.second {
+    z-index: 10;
+    transform: translateY(-25%)
+}
+
+.third .fa-crown {
+    color: #ff7300;
+    filter: drop-shadow(0 0 5px rgb(255, 115, 0))
+}
+
+.third .photo {
+    border: 5px solid #ff7300;
+    box-shadow: 0 0 20px #ff7300
+}
+
+.profile .person.third {
+    z-index: 10;
+    transform: translateY(-15%)
+}
+
+.num {
+    color: #fff;
+    font-size: 20px
+}
+
+.fa-caret-up {
+    color: #0ff;
+    font-size: 21px
+}
+
+.link {
+    margin: .2rem 0;
+    color: #fff;
+    margin-top: -.3rem;
+    font-size: 18px
+}
+
+.points {
+    color: #0ff;
+    font-size: 18px
+}
+
+.second {
+    margin-right: -.7rem !important
+}
+
+.third {
+    margin-left: -.7rem !important
+}
+
+.p_img {
+    width: 50px;
+    background: #fff;
+    border-radius: 50%
+}
+
+.flex {
+    display: flex;
+    align-items: center
+}
+
+.others {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(210, 255, 213, .3);
+    width: 410px
+}
+
+.info .points {
+    margin-left: .2rem;
+    margin-right: 1.2rem
+}
+
+.info .link {
+    margin: 0 1rem
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    flex-direction: column-reverse
+}
+
+.rank i {
+    margin-top: -5px !important
+}
+
+.rank .num {
+    margin: 0 !important
+}
+
+.countdown {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    display: grid;
+    color: #fff;
+    margin-top: 1rem
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0 0 10px
+}
+
+#clockdiv {
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 60px
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: #00bf96;
+    display: inline-block;
+    width: 125px
+}
+
+#clockdiv div>span {
+    padding: 7px;
+    border-radius: 3px;
+    background: #00816a;
+    display: block
+}
+
+.smalltext {
+    padding-top: 10px;
+    font-size: 20px
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .4rem 2rem;
+    margin: 0 .2rem .3rem .2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn-success:hover {
+    background-color: #149733;
+    border-color: #149733
+}
+
+.btn-warning:hover {
+    background-color: #b68a06;
+    border-color: #b68a06
+}
+
+.btn-danger:hover {
+    background-color: #c00d1f;
+    border-color: #c00d1f
+}
+
+.fas {
+    font-size: 1.2rem
+}
+
+.scroll-down {
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+#scrollbar-1::-webkit-scrollbar-track {
+    -box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    background-color: #f5f5f5
+}
+
+#scrollbar-1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #5d2d82
+}
+
+#scrollbar-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #02383c85
+}

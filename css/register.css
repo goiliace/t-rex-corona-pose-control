@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    border: none;
+    font-family: 'Open Sans', sans-serif
+}
+
+.to {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: minmax(100px, auto)
+}
+
+.form {
+    border: 2px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 750px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 14px 0 grey;
+    background-color: #fff;
+    margin-top: -50px;
+    margin-left: -150px;
+    background: linear-gradient(to right, #23b8fd, #f14bd6)
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+label {
+    margin-left: -400px;
+    display: block;
+    font-weight: lighter
+}
+
+input {
+    display: block;
+    border-bottom: 2px solid #00bcd4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box
+}
+
+input#submit {
+    margin-left: -95px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde)
+}
+
+input#submit:hover {
+    background: linear-gradient(to right, #fc466b, #3f5efb)
+}
+
+.icon {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: none
+}
+
+.button1 {
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19)
+}
+
+.button2 {
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19)
+}
+
+h2.class {
+    margin-bottom: 10px
+}
+
+.container {
+    text-align: center;
+    align-items: center
+}
+
+.input-box {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 400px
+}
+
+.input-box input {
+    padding: 7px 15px;
+    width: 100%;
+    border: 2px solid #ccc;
+    outline: 0;
+    margin-top: 20px
+}
+
+.dropdown {
+    margin-bottom: 150px
+}
+
+.gender {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.btn btn-outline-light text-dark.register {
+    margin-top: -50px
+}

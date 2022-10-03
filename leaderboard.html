@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/leaderboard.css">
+    <title>Bảng xếp hạng</title>
+</head>
+
+<!-- <body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;"> -->
+
+<body>
+    <div class="wrapper">
+
+        <div class="countdown">
+            <h1>Đồng hồ đếm ngược</h1>
+            <div class="btn">
+                <button type="button" id="start" onclick="startClock()" class="btn btn-success">Bật AI</button>
+                <button type="button" id="stop" onclick="stopClock()" class="btn btn-danger">Dừng AI</button>
+                <button type="button" id="stop" onclick="resetScore()" class="btn btn-danger">Reset AI</button>
+            </div>
+
+            <div id="clockdiv">
+                <div>
+                    <span class="hours">00</span>
+                    <div class="smalltext">Giờ</div>
+                </div>
+
+                <div>
+                    <span class="minutes">05</span>
+                    <div class="smalltext">Phút</div>
+                </div>
+
+                <div>
+                    <span class="seconds">00</span>
+                    <div class="smalltext">Giây</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card one">
+            <div class="header">
+                <h3 class="title">Bảng xếp hạng</h3>
+                <div></div>
+            </div>
+
+            <div class="profile">
+                <div class="person second">
+                    <div class="num">2</div>
+                    <i class="fas fa-crown"></i>
+                    <img src="/assets/boy.png" alt="" class="photo">
+                    <p class="link">@AI Bot</p>
+                    <p class="points">0</p>
+                </div>
+
+                <div class="person first">
+                    <div class="num">1</div>
+                    <i class="fas fa-crown"></i>
+                    <img src="/assets/boy.png" alt="" class="photo">
+                    <p class="link">@AI Bot</p>
+                    <p class="points">0</p>
+                </div>
+
+                <div class="person third">
+                    <div class="num">3</div>
+                    <i class="fas fa-crown"></i>
+                    <img src="/assets/boy.png" alt="" class="photo">
+                    <p class="link">@AI Bot</p>
+                    <p class="points">0</p>
+                </div>
+            </div>
+
+            <div class="scroll-down" id="scrollbar-1">
+                <div class="others flex">
+                    <div class="rank">
+                        <i class="fas fa-caret-up"></i>
+                        <p class="num">4</p>
+                    </div>
+
+                    <div class="info flex4">
+                        <img src="/assets/boy.png" alt="" class="p_img">
+                        <p class="link">@AI Bot</p>
+                        <p class="points">0</p>
+                    </div>
+                </div>
+
+                <div class="others flex">
+                    <div class="rank">
+                        <i class="fas fa-caret-up"></i>
+                        <p class="num">5</p>
+                    </div>
+
+                    <div class="info flex5">
+                        <img src="/assets/boy.png" alt="" class="p_img">
+                        <p class="link">@AI Bot</p>
+                        <p class="points">0</p>
+                    </div>
+                </div>
+
+                <div class="others flex">
+                    <div class="rank">
+                        <i class="fas fa-caret-up"></i>
+                        <p class="num">6</p>
+                    </div>
+
+                    <div class="info flex6">
+                        <img src="/assets/boy.png" alt="" class="p_img">
+                        <p class="link">@AI Bot</p>
+                        <p class="points">0</p>
+                    </div>
+                </div>
+
+                <div class="others flex">
+                    <div class="rank">
+                        <i class="fas fa-caret-up"></i>
+                        <p class="num">7</p>
+                    </div>
+
+                    <div class="info flex7">
+                        <img src="/assets/boy.png" alt="" class="p_img">
+                        <p class="link">@AI Bot</p>
+                        <p class="points">0</p>
+                    </div>
+                </div>
+
+                <div class="others flex">
+                    <div class="rank">
+                        <i class="fas fa-caret-up"></i>
+                        <p class="num">8</p>
+                    </div>
+
+                    <div class="info flex8">
+                        <img src="/assets/boy.png" alt="" class="p_img">
+                        <p class="link">@AI Bot</p>
+                        <p class="points">0</p>
+                    </div>
+                </div>
+
+                <div class="others flex">
+                    <div class="rank">
+                        <i class="fas fa-caret-up"></i>
+                        <p class="num">9</p>
+                    </div>
+
+                    <div class="info flex9">
+                        <img src="/assets/boy.png" alt="" class="p_img">
+                        <p class="link">@AI Bot</p>
+                        <p class="points">0</p>
+                    </div>
+                </div>
+
+                <div class="others flex">
+                    <div class="rank">
+                        <i class="fas fa-caret-up"></i>
+                        <p class="num">10</p>
+                    </div>
+
+                    <div class="info flex10">
+                        <img src="/assets/boy.png" alt="" class="p_img">
+                        <p class="link">@AI Bot</p>
+                        <p class="points">0</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9e0e8c81a4.js" crossorigin="anonymous"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/leaderboard.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đăng nhập vào website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body oncontextmenu="return false;">
+    <div id="page">
+        <div id="header" class=header>
+            <h1>
+                <a class="logo">
+                    <img src="assets/ai.png" style="height: 150px">
+                    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+                        Artificial Intelligence</h2>
+                </a>
+            </h1>
+        </div>
+        <div id="main-panel">
+            <div class="class-content" , style="top: 31px;">
+                <h2 class="title">Đăng Nhập</h2>
+                <div class="login-form">
+                    <div class="input-box">
+                        <input type="text" id="username" placeholder="Tên Tài Khoản">
+                    </div>
+                    <div class="input-box">
+                        <input type="password" id="password" placeholder="Mật Khẩu">
+                    </div>
+                    <div class="btn-btn-secondary">
+                        <div id="login">
+                            <button id="submit-login" class="btn btn-outline-light text-dark">Đăng nhập</button>
+                        </div>
+                        <div id="button">
+                            <button id="redirect-register-btn" type="button"
+                                class="btn btn-outline-light text-dark">Đăng Ký</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

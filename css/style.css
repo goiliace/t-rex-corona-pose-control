@@ -1,0 +1,202 @@
+#camera {
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 3%
+}
+
+img#cach-choi {
+    position: absolute;
+    width: 20.75rem;
+    height: 20.75rem;
+    right: 0;
+    margin-top: 13rem;
+}
+
+@keyframes shake-near {
+    from {
+        left: 13.125em
+    }
+
+    to {
+        left: 14.125em
+    }
+}
+
+@keyframes shake-up {
+    from {
+        top: 2.9em
+    }
+
+    to {
+        top: 4.875em
+    }
+}
+
+img#playTogether {
+    position: absolute;
+    width: 26.438em;
+    height: 10.875em;
+    left: 3.938em;
+    top: 23em;
+    bottom: 32.625em;
+    background-size: contain
+}
+
+#brain {
+    position: absolute;
+    width: 16.875em;
+    height: 11.875em;
+    left: 0;
+    top: 1.563em;
+    bottom: 12.188em;
+    background-size: contain;
+    transform: translate(0, 0) rotateY(180deg)
+}
+
+#state-jump {
+    position: absolute;
+    width: 12.5em;
+    height: 6.25em;
+    left: 12.5em;
+    top: 3.875em;
+    bottom: 2.125em;
+    display: block;
+    animation: shake .5s infinite;
+    background-size: contain
+}
+
+#state-run {
+    position: absolute;
+    width: 12.5em;
+    height: 6.25em;
+    left: 12.5em;
+    top: 3.875em;
+    bottom: 2.125em;
+    display: block;
+    background-size: contain
+}
+
+#state-dead {
+    display: none;
+    position: absolute;
+    width: 12.5em;
+    height: 6.25em;
+    left: 12.5em;
+    top: 3.875em;
+    bottom: 2.125em
+}
+
+#account-img {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    right: 1.5rem;
+    top: 1rem
+}
+
+#form-box {
+    display: none;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10.625em;
+    height: 12em;
+    background: rgba(0, 0, 0, .8);
+    padding: 2.5em 0;
+    color: #fff;
+    box-shadow: 0 0 1.25em .125em rgba(0, 0, 0, .5);
+    border-radius: 1.25em;
+    float: right;
+    letter-spacing: .01em;
+    top: .5rem;
+    right: 5rem
+}
+
+p#info {
+    text-align: center;
+    font-size: 1.5em
+}
+
+p#name {
+    margin: 1.25em;
+    font-size: 1em
+}
+
+p#gender {
+    margin: 1.25em;
+    font-size: 1em
+}
+
+p#khoa {
+    margin: 1.25em;
+    font-size: 1em
+}
+
+button#sign-out {
+    width: 5em;
+    height: 1.875em;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: purple;
+    border-radius: .188em;
+    margin-top: 0;
+    margin-left: 1.25em
+}
+
+img#doctor {
+    position: absolute;
+    width: 23rem;
+    height: auto;
+    top: 13rem
+}
+
+#footer {
+    text-align: center;
+    margin: 5rem auto;
+    height: 5rem
+}
+
+#btn-to-leaderboard {
+    top: 1rem;
+    right: 20rem;
+    position: absolute
+}
+
+@media only screen and (max-width: 63.9375em) {
+
+    img#cach-choi {
+        display: none;
+    }
+
+    .col_1, .col_3 {
+        display: none;
+    }
+
+    #camera {
+        margin-top: 40px;
+        display: none;
+
+    }
+
+}
+
+@media screen and (max-width: 46.1875em) {
+    img#cach-choi {
+        display: none;
+    }
+
+    .col_1, .col_3 {
+        display: none;
+    }
+
+    #camera {
+        margin-top: 40px;
+        /* display: none !important; */
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+    }
+}

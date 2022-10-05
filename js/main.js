@@ -1,6 +1,3 @@
-/**
- * This function is used to update the highest score of the user on the frontend.
- */
 var count = 0;
 let updateHighScore = async () => {
     let e = await document.querySelector("#highest-score"),

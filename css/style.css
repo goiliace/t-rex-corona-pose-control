@@ -152,15 +152,22 @@ img#doctor {
 }
 
 #footer {
+    position: absolute;
+    bottom: 0;
     text-align: center;
-    margin: 5rem auto;
-    height: 5rem
+    margin: 2rem auto;
+    height: 6rem
 }
 
 #btn-to-leaderboard {
     top: 1rem;
     right: 20rem;
     position: absolute
+}
+
+#footer {
+
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 63.9375em) {
@@ -195,8 +202,5 @@ img#doctor {
         /* display: none !important; */
     }
 
-    #footer {
-        position: absolute;
-        bottom: 0;
-    }
+
 }
